@@ -1,0 +1,39 @@
+/* Estilos para el diálogo de Virto Connect */
+virto-connect::part(dialog) {
+  --wa-dialog-background: white !important;
+  --wa-dialog-color: #1a1a1a !important;
+  --wa-dialog-border-radius: 12px !important;
+  --wa-dialog-padding: 24px !important;
+  --wa-dialog-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+virto-connect {
+  --darkslategray: #2F4F4F;
+  --gradient: white;
+  --lightgreen: #e0e0e0;
+}
+
+/* Estilos para los inputs y botones dentro del diálogo */
+virto-connect virto-input,
+virto-connect virto-button {
+  --background-color: white !important;
+  --text-color: #1a1a1a !important;
+  --border-color: #e0e0e0 !important;
+}
+
+/* Estilos para los textos dentro del diálogo */
+virto-connect p,
+virto-connect h2,
+virto-connect label {
+  color: #1a1a1a !important;
+}
+
+/* Estilos para los enlaces dentro del diálogo */
+virto-connect a {
+  color: #8A2BE2 !important;
+  text-decoration: none !important;
+}
+
+virto-connect a:hover {
+  text-decoration: underline !important;
+} 
