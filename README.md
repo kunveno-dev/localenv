@@ -35,7 +35,7 @@ A local development environment for w3spaces, providing a backend server and fro
 git clone <repository-url>
 cd w3spaces-local-environment
 git clone https://github.com/virto-network/virto-sdk.git
-cp virto-sdk ./docker
+cp virto-sdk ./docker/
 ```
 2. You need to build the docker image for backend. We provide a Dockerfile in `./docker`, but you can directly try to run the environment and the image will automatically built:
 
