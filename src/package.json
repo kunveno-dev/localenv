@@ -1,0 +1,17 @@
+{
+  "name": "virto-backend",
+  "version": "1.0.0",
+  "description": "Backend para Virto Connect",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@virtonetwork/sdk": "0.0.4-alpha.4",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
